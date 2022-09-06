@@ -1,0 +1,17 @@
+{
+  "name": "Full_Stack_ReactJS_NodeJS",
+  "version": "1.0.0",
+  "description": "Full Stack курс ReactJS + NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev" : "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
