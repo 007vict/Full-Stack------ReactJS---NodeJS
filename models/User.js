@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { stringify } from "querystring";
 
 const UserSchema = mongoose.Schema({
   fullName: {
@@ -22,4 +21,4 @@ const UserSchema = mongoose.Schema({
   }
 );
 
-export default mongoose.Schema('User', UserSchema)
+export default mongoose.model('User', UserSchema)
